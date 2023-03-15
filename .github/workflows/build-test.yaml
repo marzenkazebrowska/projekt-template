@@ -22,7 +22,7 @@ jobs:
     - name: "Test projekt"
       run: make test
 
-    # TODO: run tests
+    # TODO: run tests!!
 
   build:
     name: "Build"
