@@ -1,4 +1,4 @@
-#include "TPascala.hpp"
+#include "code.hpp"
 
 // Napisz program, który wyświetli trójkąt Pascala //
 
