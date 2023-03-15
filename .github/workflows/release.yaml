@@ -19,7 +19,8 @@ jobs:
       shell: bash
       run: |
         sudo apt update
-        sudo apt install gcc-10 g++-10
+        sudo apt-get install -y nodejs
+        node --version
 
     - name: "Test project"
       run: make test
