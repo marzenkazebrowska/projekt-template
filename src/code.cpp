@@ -1,5 +1,5 @@
 #include "code.hpp"
 
-// Napisz program, który wyświetli trójkąt Pascala //
-
-//W tym celu stwórz funkcję //
+std::string hello (std::string_view name) {
+    return std::string("Hello,").append(name).append("!!!");
+} 
