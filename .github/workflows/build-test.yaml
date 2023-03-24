@@ -1,7 +1,7 @@
 name: "Build & test"
 
 on:
-  # TODO: setup trigger tu run this job for every pull request
+  push:
   pull_request:
 
 jobs:
@@ -43,6 +43,4 @@ jobs:
 
     - name: "Build projekt"
       run: make build
-    # TODO: setup compiler
-
-    # TODO: build project
+ 
