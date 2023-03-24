@@ -1,5 +1,5 @@
 name: "Release"
-#release
+
 on:
   push:
     tags: # run when release has been tagged, however ignore non-official semver tags (release candidates etc)
@@ -15,6 +15,7 @@ jobs:
 
     - name: "Checkout"
       uses: actions/checkout@v2
+
     - name: "Setup gcc"
       shell: bash
       run: |
@@ -30,16 +31,10 @@ jobs:
     - name: "Release"
       uses: "marvinpinto/action-automatic-releases@latest"
       with:
-      repo_token: "${{ secrets.GITHUB_TOKEN }}"
-      prerelease: false
-      files: |
-        LICENSE
-        dist/app*
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        prerelease: false
+        files: |
+          LICENSE
+          dist/app*
 
-    # TODO: setup compiler
 
-    # TODO: run tests
-
-    # TODO: build project
-
-    # TODO: release
