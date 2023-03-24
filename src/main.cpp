@@ -1,11 +1,13 @@
 #include <iostream>
 #include "code.hpp"
 
+using namespace std;
+
 int main(int argc, char** argv) {
   if (argc < 2) {
-    std::cout << hello("Unnamed") << std::endl;
+    cout << hello("Unnamed") << endl;
   } else {
-    std::cout << hello(argv[1]) << std::endl;
+    cout << hello(argv[1]) << endl;
   }
 }
 
