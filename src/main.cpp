@@ -1,9 +1,7 @@
 #include <iostream>
-
-#include "code.hpp"
+#include "code.h"
 
 int main(int argc, char* argv[]) {
-    std::cout << hello("Unnamed") << std::end1;
+    std::cout << hello("Unnamed") << std::endl;
     return 0;
 }
-    
