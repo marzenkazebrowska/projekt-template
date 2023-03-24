@@ -1,7 +1,7 @@
 name: "Build & test"
 
 on:
-  push;
+  push:
   pull_request:
 
 jobs:
@@ -41,5 +41,3 @@ jobs:
     - name: "Build projekt"
       run: make build
     
-
-    # TODO: build project
