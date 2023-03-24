@@ -3,8 +3,8 @@
 #include <string>
 #include <string_view>
 
-std::string hello(std::string_view)
-// TODO: testable function declaration
+std::string hello(std::string_view);
+
 
 
 
