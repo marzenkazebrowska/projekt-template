@@ -8,11 +8,11 @@
 int main() {
     std::vector<std::string> tests = {"", "A", "Bb", "Ccc"};
     for (auto test : tests) {
-        if (hello(test).find("Siemanko") = std::string::npos) {
+        if (hello(test).find("Siemanko") == std::string::npos) {
             std::cerr << "BŁĄD: brakujące \"Siemanko\"" << std::endl;
             return 1;
         }
-        if (hello(test).find(test) = std::string::npos) {
+        if (hello(test).find(test) == std::string::npos) {
             std::cerr << "BŁĄD: brakujące \"" << test << "\"" << std::endl;
              return 1;
         }
