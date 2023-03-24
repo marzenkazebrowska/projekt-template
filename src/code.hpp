@@ -8,8 +8,6 @@ std::string hello(std::string_view)
 
 
 
-// Funkcja generująca trójkąt Pascala do określonego poziomu
-// TPascala1.cpp/
 
 
 
