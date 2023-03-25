@@ -10,3 +10,4 @@ int main(int argc, char** argv) {
     cout << hello(argv[1]) << endl;
   }
 }
+
